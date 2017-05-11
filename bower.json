@@ -1,0 +1,22 @@
+{
+  "name": "craft2es.github.io",
+  "homepage": "https://github.com/craft2es/craft2es.github.io",
+  "authors": [
+    "Davo <davidgalavotti@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "reveal.js": "^3.4.1",
+    "gsap": "^1.19.1",
+    "jquery": "^3.1.1"
+  }
+}

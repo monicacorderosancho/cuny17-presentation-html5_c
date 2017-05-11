@@ -1,0 +1,229 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+        <title>La prestamista del Bronx</title>
+
+        <link rel="stylesheet" href="../../../components/reveal.js/css/reveal.css">
+
+        <link rel="stylesheet" href="assets/css/plantilla_03.css">
+        <link href="https://fonts.googleapis.com/css?family=Gentium+Basic|Open+Sans" rel="stylesheet">
+
+        <script src='../../../components/jquery/dist/jquery.min.js'></script>
+
+    </head>
+    <body>
+
+        <!-- esta es la clase para el play y el pausa -->
+        <!-- esta es la clase para el play y el pausa -->
+
+        <!--<div class="controles" style="display: inline-block;">
+
+            <ul>
+                <li class="play"><a hef="#r">play</a></li>
+                <li class="pausa"><a href="#">pausa</a></li>       
+            </ul>
+
+        </div> -->
+           
+        <div class="audio">
+            <audio id="entrevista">
+              <source src="assets/audios/prestamista-bronx.mp3" type="audio/mpeg">
+            </audio>
+            <div class="controles">
+                <a href="#" class="play">&#9654;</a><a href="#" class="pausa">&#9724;</a>   
+            </div>
+        </div>
+
+        <div class="reveal">
+            <div class="slides">
+                <section class="slide-aligned-left" data-background-image="assets/images/bronx1.jpg">
+                    <h1> Vivir como prestamista <br> en el Bronx</h1>
+                    <p class="intro">“Ivelisse García vive de los interes que gana al prestar dinero <br> a los latinos que están fuera de la banca.”</p>
+                    <a href="#" align="center" class="navigate-next" id="comenzar">Comenzar</a>
+                </section>
+
+                <section data-background-image="assets/images/foto1.jpg"></section> 
+
+                 <section data-background-image="assets/images/foto2.JPG"></section> 
+
+                 <section data-background-video="assets/videos/video_presta1.mov" data-background-video-loop data-background-video-muted class="background-content">
+
+                 </section>
+
+                 <section class="slide-aligned-left"> 
+                 <h2>“El negocio de prestar dinero cae en la ilegalidad cuando se cobran interés altos”.</h2> 
+                
+                 </section>
+
+                <section data-background-image="assets/images/foto3.JPG">
+                </section> 
+
+                 <section data-background-image="assets/images/foto3.JPG">
+
+                </section>  
+
+                <section data-background-video="assets/videos/video_presta2.mov" data-background-video-loop data-background-video-muted class="background-content">  
+        
+                </section>
+<!--
+                 <section data-background-image="assets/images/foto3.JPG">
+                </section> FOTO DE BRONX GENERAL FALTA AQUI-->
+
+                 <section data-background-image="assets/images/foto4.JPG">
+                </section>   
+
+                <section data-background-image="assets/images/foto5.JPG">
+                </section>   
+
+                <section data-background-image="assets/images/foto6.JPG">
+                </section>   
+
+                <section data-background-image="assets/images/foto7.JPG">
+                </section> 
+
+                <section data-background-image="assets/images/foto8.JPG">
+                </section>   
+
+                 <section data-background-video="assets/videos/video_presta3.mov" data-background-video-loop data-background-video-muted class="background-content"> 
+                 </section>  
+
+               <section class="slide-aligned-left"> 
+                 <h2>“A veces he tenido que ir un poco guerrera a tocar la puerta”.</h2> 
+                </section>
+
+               <section data-background-image="assets/images/foto9.JPG">
+                </section>   
+
+                 <section class="slide-aligned-left"> 
+                 <h2>“Dicen (la gente en el negocio) te voy a romper el carro. Dios me libre de llegar a cosas así”.</h2> 
+                 </section>
+
+
+                 <section data-background-video="assets/videos/video_presta4.mov" data-background-video-loop data-background-video-muted class="background-content">
+                 </section>
+
+                 <section class="slide-aligned-left"> 
+                 <h2>“Me gustaría tener una oficina grande para prestarle a las personas, pero sin mucho interés”.</h2> 
+                  </section>
+
+
+                 <section data-background-video="assets/videos/video_presta5.mov" data-background-video-loop data-background-video-muted class="background-content"></section>  
+
+                 <section data-background-image="assets/images/foto10.JPG">
+                </section>   
+
+                <section data-background-image="assets/images/foto11.JPG">
+                </section>  
+
+
+                <section>
+                   <a href="http://twitter.com/coco_gp" target="_blank" class="socialmedia">
+                   <img src="assets/images/twitter.png"></a>
+                   <a href="https://www.instagram.com/coco_gp/" target="_blank" class="socialmedia">   
+                   <img src="assets/images/instagram_app.png"></a>
+           
+                    <p>Producción y edición: Mónica Cordero, Constanza Gallardo y Alma
+                    Sacasa</p>
+                    <p>Entrevistada: Ivelisse García</p>
+                    <p>Tecnología usada: HTML, CSS y JavaScrip</p>
+                    <p>Este es un proyecto de la clase Craft 2 Periodismo y Redacción
+                    Avanzada, Programa Bilingüe de la Maestría de Periodismo de CUNY
+                    Graduate School of Journalism.</p>
+                    <p>Instructores: Luis Trelles y Miguel Paz. Cristina Maldonado
+                    (Research), Davo Galavotti (Coach de Interactivo).</p>
+                    <p>Producido en Nueva York </p>
+                </section>
+                
+
+            </div>
+        </div>
+
+        <script src="../../../components/reveal.js/lib/js/head.min.js"></script>
+        <script src="../../../components/reveal.js/js/reveal.js"></script>
+        <script>
+
+            $(document).ready(function() {
+
+                // Array para guardar el tiempo en el momento que cambiamos cada slide.
+                // Cada valor en el array esta expresado en segundos acumulados PONER NUMERITOS.
+                var tiempoTransicion = [20, 40, 60, 203, 403];
+
+
+                // Posición del array tiempoTransicion
+                var marcaActual = 0;
+                // Selecciono el objeto de audio.
+                var entrevista = $('#entrevista');
+                // Extraigo la duración.
+                var duracion = entrevista.prop('duration');
+                // Extraigo la posición actual del audio.
+                var posicion = entrevista.prop('currentTime');
+
+                // Inicio haciendo click en el botón comenzar, para darle "Play" al audio. El slide se ejecuta vía Reveal.js, class="navigate-next"
+                $('#comenzar').on('click', function() {
+                    entrevista.trigger('play');
+
+                    // cambiar css de .controles 
+                });
+
+                $('.play a').on('click', function() {
+                    entrevista.trigger('play');
+                });
+
+                $('.pausa a').on('click', function() {
+                    entrevista.trigger('pause');
+                });
+
+                // Listener o evento que detecta si hubo un cambio en slide.
+                Reveal.addEventListener( 'slidechanged', function(event, setTime) {
+
+                    // Si accidentalmente me cambio de slide sin usar el botón comenzar, entonces ejecuto el audio.
+
+                    // Caso contrario, pongo el audio en pausa y lo vuelvo a cero.
+
+                    if (Reveal.getState().indexh === 0) {
+                        entrevista.trigger('pause');
+                        entrevista.prop('currentTime',0);
+                    } else {
+                        entrevista.trigger('play');
+                    }
+
+                });
+
+                // Función para ejecutar siguiende slide.
+                function cambiarSlide() {
+                    Reveal.next();
+                    marcaActual += 1;
+                }
+
+                // Listener o evento que extrae el tiempo actual del audio.
+                // Sin función actualmente.
+                entrevista.on('timeupdate', function() {  
+
+                    console.log(Math.round(entrevista.prop('currentTime')))
+
+
+                    posicion = entrevista.prop('currentTime');
+                    if (posicion > 0 && posicion >= tiempoTransicion[marcaActual]) {
+                        cambiarSlide();
+                    }
+                });
+
+
+
+            });
+            // More info https://github.com/hakimel/reveal.js#configuration
+            Reveal.initialize({
+                history: false,
+                controls: false,
+                center: true,
+                transition: 'fade',
+                progress: false,
+                width: "100%",
+                height: "100%"
+            });
+        </script>
+    </body>
+</html>

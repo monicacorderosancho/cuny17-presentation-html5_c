@@ -1,0 +1,56 @@
+/*
+
+Hacer comentarios multilinea
+
+*/
+
+
+/* Tabla de contenidos
+––––––––––––––––––––––––––––––––––––––––––––––––––
+Intro HTML 5, CSS 3 y JS
+Clase II: CSS 3
+
+Todo list:
+
+Quiero que las imagenes se vean bien en mobile
+Quiero compartir esto en twitter y FB
+
+
+*/
+
+/*
+
+En esta regla, body es el selector.
+
+*/
+
+body {
+  /* Dentro de la regla, van las propiedades */
+  font-family: "Helvetica", Arial, sans-serif;
+  font-size: 16px;
+  background-color: #fff;
+}
+
+h1 {
+  font-size: 5em;
+  padding: 15px;
+  color: #000;
+  /* border: 2px solid MediumTurquoise; */
+  letter-spacing: -0.04em;
+}
+
+h1 {
+  letter-spacing: -3px;
+}
+
+p {
+  font-family: "Roboto", Arial, sans-serif;
+  font-size: 2em;
+  color: rgb(0,0,0);
+}
+
+.wired {
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  text-transform: uppercase;
+}
+
